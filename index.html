@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Yacht club</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+	<header class="main-header">
+		<div class="services">
+			<div class="services-content">
+				<a class="location" href="#">Bodrum</a>
+				<p class="caption">Theme</p>
+				<ul class="theme-switcher">
+					<li>
+						<button class="theme-button-dark" type="button"></button>
+					</li>
+					<li>
+						<button class="theme-button-light active" type="button"></button>
+					</li>
+				</ul>
+				<p class="caption">Font</p>
+				<ul class="fonts">
+					<li>
+						<button class="font-button-sans-serif active" type="button">А</button>
+					</li>
+					<li>
+						<button class="font-button-serif" type="button">А</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<nav class="main-navigation">
+			<a class="logo" href="#">
+				<img src="img/logo.svg" width="64" height="68" alt="Логотип яхт клуба">
+			</a>
+			<ul class="site-navigation">
+				<li class="site-navigation-item">
+					<a href="#">Main</a>
+				</li>
+				<li class="site-navigation-item">
+					<a href="#main-content">Our club</a>
+				</li>
+				<li class="site-navigation-item">
+					<a href="#rental">Rental</a>
+				</li>
+				<li class="site-navigation-item">
+					<a href="#gallery">Gallery</a>
+				</li>
+				<li class="site-navigation-item">
+					<a href="#news">News</a>
+				</li>
+				<li class="site-navigation-item">
+					<a href="#contacts">Contacts</a>
+				</li>
+			</ul>
+			<a class="login" href="#">
+				<img src="img/user_icon.svg" width="16" height="18" alt="Login">
+			</a>
+		</nav>
+	</header>
+
+	<main id="main-content" class="main-content">
+		<section class="hero">
+			<h1>Sailing together</h1>
+			<img src="img/main_picture.jpg" width="1170" height="466" alt="Yaht in a see">
+		</section>
+
+		<article class="articles article-1 short">
+			<div class="articles-content-1">
+				<p class="publish-data"><time datetime="2021-10-20">20 October</time> - <time datetime="2021-04-19">19
+						April</time></p>
+				<h2>Join the team</h2>
+				<p class="article-description">If you have long wanted to try yourself in yachting - now is the best
+					time! We are recruiting a team of future skippers. In 6 months you will become a real captain and
+					next season you will be able to
+					go to sea on your own!</p>
+				<button class="more" type="button">Read more</button>
+			</div>
+			<img class="articles-img" src="img/article_photo_1.jpg" width="600" height="262"
+				alt="Man on a yacht with binoculars">
+		</article>
+		<article class="articles article-2 short">
+			<div class="articles-content-2">
+				<p class="publish-data"><time datetime="2021-07-16">16 July</time> - <time datetime="2021-07-23">23
+						July</time></p>
+				<h2>Born in water</h2>
+				<p class="article-description-2">Give your children a real adventure! A day with sea pirates on a
+					ship is the best team, fun animators, games, competitions, teamwork and, of course, the sea!</p>
+				<button class="more" type="button">Read more</button>
+			</div>
+			<img class="articles-img" src="img/article_photo_2.jpg" width="600" height="252"
+				alt="Kids on a yaht with parents">
+		</article>
+
+		<section id="rental" class="rental">
+			<header>
+				<h2>Yacht rental</h2>
+				<ul class="card-view-buttons">
+					<li class="card-view-item">
+						<button class="card-view-button-grid active" type="button"></button>
+					</li>
+					<li class="card-view-item">
+						<button class="card-view-button-list" type="button"></button>
+					</li>
+				</ul>
+			</header>
+			<div class="rental-wrapper">
+				<ul class="rental-cards">
+					<li class="rental-cards-item">
+						<img class="articles-img" src="img/rental-1.jpg" width="310" height="141"
+							alt="Катер Meridian 401">
+						<div class="card-content">
+							<h3>Boat Meridian 401</h3>
+							<p class="rental-description">Yacht 401 is 12.5 meters long and 4.2 meters wide, with a
+								capacity of
+								11
+								people</p>
+							<ul class="rental-features">
+								<li class="rental-features-item">2 cabins</li>
+								<li class="rental-features-item">4 berths</li>
+								<li class="rental-features-item">audio system, air conditioning</li>
+								<li class="rental-features-item">refrigerator, microwave</li>
+								<li class="rental-features-item">shower, toilet</li>
+							</ul>
+						</div>
+						<p class="rental-cards-price">
+							<span class="rental-cards-price-name">Price</span>
+							<span class="rental-cards-price-value">1.400 $/day</span>
+						</p>
+					</li>
+					<li class="rental-cards-item">
+						<img class="articles-img" src="img/rental-2.jpg" width="310" height="141"
+							alt="Катер 60 Manhattan">
+						<div class="card-content">
+							<h3>Boat 60 Manhattan</h3>
+							<p class="rental-description">A two-deck VIP vessel, 20 meters long, with a capacity of 10
+								people</p>
+							<ul class="rental-features">
+								<li class="rental-features-item">6 cabins</li>
+								<li class="rental-features-item">bow with a huge cushion</li>
+								<li class="rental-features-item">spacious flybridge</li>
+								<li class="rental-features-item">equipped kitchen</li>
+								<li class="rental-features-item">jacuzzi</li>
+							</ul>
+						</div>
+						<p class="rental-cards-price">
+							<span class="rental-cards-price-name">Price</span>
+							<span class="rental-cards-price-value">2.500 $/day</span>
+						</p>
+					</li>
+					<li class="rental-cards-item">
+						<img class="articles-img" src="img/rental-3.jpg" width="310" height="141"
+							alt="Катер Starfisher 34">
+						<div class="card-content">
+							<h3>Starfisher 34 boat</h3>
+							<p class="rental-description">Motor yacht 11 meters long
+								and capacity up to 8 people</p>
+							<ul class="rental-features">
+								<li class="rental-features-item">4 cabins</li>
+								<li class="rental-features-item">6 berths</li>
+								<li class="rental-features-item">audio system, air conditioning</li>
+								<li class="rental-features-item">refrigerator, microwave</li>
+								<li class="rental-features-item">shower, toilet</li>
+							</ul>
+						</div>
+						<p class="rental-cards-price">
+							<span class="rental-cards-price-name">Price</span>
+							<span class="rental-cards-price-value">1.800 $/day</span>
+						</p>
+					</li>
+					<li class="rental-cards-item">
+						<img class="articles-img" src="img/rental-4.jpg" width="310" height="141"
+							alt="Катер Pacific 7-13">
+						<div class="card-content">
+							<h3>Boat Pacific 7-13</h3>
+							<p class="rental-description">Boat Pacific is 12 meters long and 4.6 meters wide,
+
+								capacity 8 people</p>
+							<ul class="rental-features">
+								<li class="rental-features-item">1 cabin</li>
+								<li class="rental-features-item">2 berths</li>
+								<li class="rental-features-item">audio system, air conditioning</li>
+								<li class="rental-features-item">refrigerator, microwave</li>
+								<li class="rental-features-item">toilet</li>
+							</ul>
+						</div>
+						<p class="rental-cards-price">
+							<span class="rental-cards-price-name">Price</span>
+							<span class="rental-cards-price-value">1.100 $/day</span>
+						</p>
+					</li>
+					<li class="rental-cards-item">
+						<img class="articles-img" src="img/rental-5.jpg" width="310" height="141"
+							alt="Катер Atlantic 3000">
+						<div class="card-content">
+							<h3>Boat Atlantic 3000</h3>
+							<p class="rental-description">Boat Atlantic 14 meters long
+								and capacity up to 6 people</p>
+							<ul class="rental-features">
+								<li class="rental-features-item">2 cabins</li>
+								<li class="rental-features-item">4 berths</li>
+								<li class="rental-features-item">spacious flybridge</li>
+								<li class="rental-features-item">equipped kitchen</li>
+								<li class="rental-features-item">shower, toilet</li>
+							</ul>
+						</div>
+						<p class="rental-cards-price">
+							<span class="rental-cards-price-name">Price</span>
+							<span class="rental-cards-price-value">1.500 $/day</span>
+						</p>
+					</li>
+				</ul>
+
+			</div>
+
+		</section>
+
+
+
+
+		<section id="gallery" class="gallery">
+			<h2>Gallery</h2>
+			<div class="gallery-wrapper">
+				<img class="active-img" src="/img/gallery-photo-1.jpg" width="970" height="690" alt="Яхта в море">
+				<ul class="preview-item">
+					<li>
+						<a href="/img/gallery-photo-2.jpg"><img src="/img/preview-gallery-photo-2.jpg" width="170"
+								height="150" alt="Яхта в море"> </a>
+					</li>
+					<li>
+						<a href="/img/gallery-photo-3.jpg"><img src="/img/preview-gallery-photo-3.jpg" width="170"
+								height="150" alt="Яхта в море"> </a>
+					</li>
+					<li>
+						<a href="/img/gallery-photo-4.jpg"><img src="/img/preview-gallery-photo-4.jpg" width="170"
+								height="150" alt="Яхта в море"> </a>
+					</li>
+					<li>
+						<a class="active-item" href="/img/gallery-photo-1.jpg"><img
+								src="/img/preview-gallery-photo-1.jpg" width="170" height="150" alt="Яхта в море"> </a>
+					</li>
+			</div>
+		</section>
+
+		<section id="news" class="news">
+			<h2>News</h2>
+			<figure class="news-img">
+				<img src="img/news-photo.jpg" width="770" height="301" alt="Капитан на яхте">
+				<figcaption>Regatta winner skipper Ivan Kuleshov</figcaption>
+			</figure>
+			<div class="news-content">
+				<h3>Sochi Race Week 2020 Regatta Results</h3>
+				<p>Over a hundred participants gathered on the Sochi coast to compete for the main
+
+					prize. Both beginners and professional sailors with considerable experience took part in the
+					competition. </p>
+				<p>Throughout the voyage, we were accompanied by the sun and beautiful weather, on some days the wind
+					was up to 20
+
+					knots. The regatta was well organized, 135 sailors, 7 crews, 9 participating countries, 4 racing
+
+					days, 3 divisions.</p>
+				<h4>Participating teams:</h4>
+				<ul>
+					<li>Vostok 35</li>
+					<li>Fortune Sailing</li>
+					<li>Siberia</li>
+					<li>Leviathan</li>
+					<li>Black Swan</li>
+					<li>White Pepper</li>
+					<li>Pearl</li>
+				</ul>
+				<p>The Fortune Sailing team became the champion of the Sochi Race Week 2020 regatta, last year they
+					stopped one step away from victory, and this season they outpaced their closest rival, the Vostok 35
+					crew, by 12
+
+					points 5 points.</p>
+				<blockquote>We are very friendly in the team and understand each other without words, I think that's why
+					we won</blockquote>
+
+				<p>Congratulations to the winners and we look forward to seeing all the participants again at the autumn
+					regattas!</p>
+			</div>
+			<footer class="news-footer">
+				<img class="news-author-img" src="/img/news-author.jpg" width="60" height="60"
+					alt="Аватар автора статьи">
+				<p class="post-meta">
+					<a href="#">Alex Newman</a>
+					<time datetime="2021-06-20">20.06.2021</time>
+				</p>
+				<a class="post-share" href="#">
+					<img src="img/share.svg" width="26" height="22" alt="Поделиться">
+				</a>
+			</footer>
+		</section>
+
+		<section id="contacts" class="contact-information">
+			<div class="contacts-wrap">
+				<h2>Contacts</h2>
+				<ul class="contacts-list">
+					<li class="contacts-item">
+						<h3>Address:</h3>
+						<address>Bodrum, Main street, 9</address>
+					</li>
+					<li class="contacts-item">
+						<h3>Phone:</h3>
+						<a href="tel:+0000000000">0 (000) 00-00-00</a>
+					</li>
+					<li class="contacts-item">
+						<h3>E-mail:</h3>
+						<a href="mailto:yachtclub-bodrum@gmail.com">yachtclub-bodrum@gmail.com</a>
+					</li>
+					<li class="contacts-item">
+						<h3>Soial networks:</h3>
+						<ul class="social-list">
+							<li class="social-list-item">
+								<a href="#"><img src="img/facebook.svg" height="18" width="32" alt="Facebook"></a>
+							</li>
+							<li class="social-list-item">
+								<a href="#"><img src="img/twitter.svg" height="18" width="16" alt="Twitter"></a>
+							</li>
+							<li class="social-list-item">
+								<a href="#"><img src="img/instagram.svg" height="18" width="18" alt="Instagram"></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<img class="contacts-img" src="img/map.png" width="670" height="351" alt="карта местоположения">
+		</section>
+
+	</main>
+	<footer class="main-footer">
+		<div class="footer-container">
+			<div class="footer-logo-wrap">
+				<p class="logo">
+					<img src="img/logo.svg" width="100" height="106" alt="Логотип яхт клуба">
+				</p>
+				<p class="policy"><a href="#">Privacy Policy</a></p>
+				<p class="copyright">Yachtclub ©2020 All rights reserved</p>
+			</div>
+			<ul class="footer-navigation-topics">
+				<li class="footer-navigation-topic">
+					<h2>Company</h2>
+					<ul class="footer-navigation">
+						<li class="footer-navigation-item"> <a href=#>About us</a> </li>
+						<li class="footer-navigation-item"> <a href=#>Team</a> </li>
+						<li class="footer-navigation-item"> <a href=#>News</a> </li>
+						<li class="footer-navigation-item"> <a href=#>Blog</a> </li>
+						<li class="footer-navigation-item"> <a href=#>Gallery</a> </li>
+					</ul>
+				<li class="footer-navigation-topic">
+					<h2>Yacht Club</h2>
+					<ul class="footer-navigation">
+						<li class="footer-navigation-item"> <a href=#>Rules</a> </li>
+						<li class="footer-navigation-item"> <a href=#>Cost</a> </li>
+						<li class="footer-navigation-item"> <a href=#>Questionnaire</a> </li>
+						<li class="footer-navigation-item"> <a href=#>FAQ</a> </li>
+						<li class="footer-navigation-item"> <a href=#>Partners</a> </li>
+					</ul>
+				</li>
+				<li class="footer-navigation-topic">
+					<h2>Services</h2>
+					<ul class="footer-navigation">
+						<li class="footer-navigation-item">
+							<a href=#>Yacht Charter</a>
+						</li>
+						<li class="footer-navigation-item">
+							<a href=#>Yacht Wedding</a>
+						</li>
+						<li class="footer-navigation-item">
+							<a href=#>Birthday</a>
+						</li>
+						<li class="footer-navigation-item">
+							<a href=#>Business Meetings</a>
+						</li>
+						<li class="footer-navigation-item">
+							<a href=#>Walks</a>
+						</li>
+					</ul>
+				</li>
+				<li class="footer-navigation-topic">
+					<h2>Regattas</h2>
+					<ul class="footer-navigation">
+						<li class="footer-navigation-item">
+							<a href=#>Corporate Regattas</a>
+						</li>
+						<li class="footer-navigation-item">
+							<a href=#>Events Calendar</a>
+						</li>
+						<li class="footer-navigation-item">
+							<a href=#>Become a Participant</a>
+						</li>
+						<li class="footer-navigation-item">
+							<a href=#>Regatta Results</a>
+						</li>
+						<li class="footer-navigation-item">
+							<a href=#>Training</a>
+						</li>
+					</ul>
+				</li>
+		</div>
+	</footer>
+	<script src="/js/script.js"></script>
+</body>
+
+</html>
